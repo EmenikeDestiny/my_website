@@ -1,0 +1,106 @@
+*,*::before, ::after{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(120deg, #fcf9f9 0%, #d7edf8 100%);
+}
+.img{
+    float: right;
+}
+
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.text{
+    color: #fdfbfb;
+    /* background-image: linear-gradient(rgb(127, 166, 218),rgb(127, 166, 218)),url(../project/apple-laptop-500x500.jpg);
+     */
+     background-image:linear-gradient(rgba(57, 39, 214,0.5),rgba(70, 52, 230,0.5)), url(../project/Shopping_interior@AmfiNarvik_web\ \(1\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+height: 500px;
+font-size: 50px;
+text-align: center;
+font-family: algerian;
+transition: 200ms transform ease-in-out;
+}
+.text:hover{
+  transform: scale(1.025);
+}
+#class{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/* #txt_ml-r{
+    margin-right: 5px;
+    margin-left:5px;
+} */
+#p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.card{
+  display: block;
+  border: none;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+}
+.container{
+  display: flex;
+  margin: 50px;
+}
+.img{
+  transition: 200ms transform ease-in-out;
+  display: block;
+  border: none ;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+  margin: 5px;
+  margin-top: -80px;
+
+}
+
+.img:hover{
+  transform: scale(1.025);
+  display: block;
+  border: none;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+}
+.container2{
+  display: flex;
+  margin: 25px;
+}
+.img2{
+  transition: 200ms transform ease-in-out;
+  display: block;
+  border: none ;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+  margin: 5px;
+  margin-top: -50px;
+
+}
+
+.img2:hover{
+  transform: scale(1.025);
+  display: block;
+  border: none;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.card2{
+  height: 90px !important;
+}
